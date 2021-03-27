@@ -71,7 +71,7 @@ nav li {
   font-weight: normal;
   margin: 0 !important;
   white-space: nowrap;
-  line-height: 18rem;
+  line-height: 1em;
 }
 
 .first-view__message p {
