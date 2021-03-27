@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); //Noto Serif
 
 $layout-width-inner: 1024px;
 
@@ -9,21 +9,27 @@ $layout-width-inner: 1024px;
   box-sizing: inherit;
 
 }
-html {
+html, body {
   margin: 0px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif " ,serif;
 }
 
 // ヘッダー
 header {
   max-width: $layout-width-inner;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 nav {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+
   ul {
     display: flex;
     justify-content: space-between;
@@ -39,4 +45,39 @@ nav {
 .nav-link {
   text-decoration: none;
   font-size: 2.0rem;
+  color: white;
+}
+
+// ファーストビュー
+.first-view {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/top-image.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.first-view__message {
+  position: absolute;
+  top:50%;
+  left:50%;
+  // right: 0;
+  transform: translate(-50%, -50%);
+  // margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    color: white;
+    font-size: 10.5vw;
+    font-weight: normal;
+    margin: 0 !important;
+    white-space: nowrap;
+    line-height: 18rem;
+  }
+
+  p {
+    color: white;
+    font-size:5vw;
+    margin: 0 !important;
+  }
 }
