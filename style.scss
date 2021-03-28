@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); //Noto Serif
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"); //Noto Serif
 
 $layout-width-inner: 1024px;
 
@@ -7,14 +7,15 @@ $layout-width-inner: 1024px;
 *::after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
-
 }
-html, body {
+html,
+body {
   margin: 0px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Noto Serif " ,serif;
+  font-family: "Noto Serif ", serif;
+  color: white;
 }
 
 // ヘッダー
@@ -44,7 +45,7 @@ nav {
 
 .nav-link {
   text-decoration: none;
-  font-size: 2.0rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -59,15 +60,14 @@ nav {
 
 .first-view__message {
   position: absolute;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   // right: 0;
   transform: translate(-50%, -50%);
   // margin: 0 auto;
   text-align: center;
 
   h1 {
-    color: white;
     font-size: 10.5vw;
     font-weight: normal;
     margin: 0 !important;
@@ -76,8 +76,63 @@ nav {
   }
 
   p {
-    color: white;
-    font-size:5vw;
+    font-size: 5vw;
     margin: 0 !important;
   }
+}
+
+// メインコンテンツ
+.main-content {
+  background-image: url(img/black_background.jpg);
+  background-size: cover;
+  padding-bottom: 10px;
+}
+
+.main-content__container {
+  max-width: $layout-width-inner;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0 !important;
+}
+
+.txt-container {
+  margin: 0 2.5% 40px 2.5%;
+}
+
+.txt-container__title {
+  font-size: 3.2rem;
+  margin: 0 0 0.16em 0;
+}
+
+.txt-container__txt {
+  text-align: justify;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.txt-container__txt--large {
+  text-align: justify;
+  font-size: 2rem;
+  margin: 0 0 0.5em 0;
+}
+
+// Aboutセクション
+#about {
+  padding-top: 20px;
+}
+
+.profile_picture {
+  height: 300px;
+  margin: 20px auto 32px 0;
+}
+
+.profile_picture img {
+  margin: 0 auto;
+  display: block;
+  height: 100%;
+  width: auto;
 }
