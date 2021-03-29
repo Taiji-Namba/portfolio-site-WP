@@ -98,7 +98,7 @@ nav li {
   margin: 0 0 16px 0 !important;
 }
 
-.txt-container {
+.txt-container--policy {
   margin-bottom: 40px;
 }
 
@@ -170,5 +170,27 @@ nav li {
 
 .txt-container__txt--price {
   margin-top: 24px;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills__item {
+  width: calc(25% - 2rem);
+}
+
+.skills__item:nth-child(-n+4) {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
