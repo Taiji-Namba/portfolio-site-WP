@@ -64,7 +64,6 @@ nav {
   left: 50%;
   // right: 0;
   transform: translate(-50%, -50%);
-  // margin: 0 auto;
   text-align: center;
 
   h1 {
@@ -82,35 +81,45 @@ nav {
 }
 
 // メインコンテンツ
-.main-content {
+.main-content-bg {
   background-image: url(img/black_background.jpg);
   background-size: cover;
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 
-.main-content__container {
+.main-contents-wrapper {
   max-width: $layout-width-inner;
   margin: 0 auto;
 }
 
+// .main-contents {
+//   margin: 0 2.5%;
+// }
+
 .section-title {
   text-align: center;
   font-size: 4rem;
-  margin: 0 !important;
+  margin: 0 0 16px 0 !important;
 }
 
 .txt-container {
-  margin: 0 2.5% 40px 2.5%;
+  margin-bottom:40px;
 }
 
-.txt-container__title {
+@mixin txtContentTitle ($text-align){
   font-size: 3.2rem;
   margin: 0 0 0.16em 0;
+  text-align: $text-align;
+} //txt-content-titleのmixin定義
+
+.txt-container__title {
+  @include txtContentTitle(left);
 }
 
 .txt-container__txt {
   text-align: justify;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0;
 }
 
@@ -120,14 +129,14 @@ nav {
   margin: 0 0 0.5em 0;
 }
 
-// Aboutセクション
-#about {
-  padding-top: 20px;
+.main-contents__section {
+  margin-bottom: 100px;
 }
 
+// Aboutセクション
 .profile_picture {
   height: 300px;
-  margin: 20px auto 32px 0;
+  margin: 0px auto 32px 0;
 }
 
 .profile_picture img {
@@ -135,4 +144,36 @@ nav {
   display: block;
   height: 100%;
   width: auto;
+}
+
+// Servicesセクション
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-menu {
+  width: calc(33.3% - 3rem);
+  display: inline-block;
+}
+
+.service__icon {
+  text-align: center;
+  margin-bottom: 16px;
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.txt-container__title--service-title {
+  @include txtContentTitle(center);
+  font-size: 2.8rem;
+  margin-bottom: 8px;
+}
+
+.txt-container__txt--price {
+  @extend .txt-container__txt;
+  margin-top: 24px;
 }

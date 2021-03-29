@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225" height="225" viewBox="0 0 225 225">
+  <g id="グループ_24" data-name="グループ 24" transform="translate(-1490 -2120)">
+    <g id="devices_78336" transform="translate(1490 2120)">
+      <circle id="楕円形_7" data-name="楕円形 7" cx="112.5" cy="112.5" r="112.5" fill="#ed9595"/>
+      <path id="パス_35" data-name="パス 35" d="M265.7,332.73H237.719l3.551-17.292H262.14Z" transform="translate(-133.119 -176.714)" fill="#e1effa"/>
+      <rect id="長方形_37" data-name="長方形 37" width="42.954" height="2.096" transform="translate(97.113 156.085)" fill="#f2f9ff"/>
+      <path id="パス_37" data-name="パス 37" d="M149.209,152.054a2.618,2.618,0,0,0-2.606,2.61V220.6a2.618,2.618,0,0,0,2.606,2.614H251.349a2.624,2.624,0,0,0,2.617-2.614V154.664a2.625,2.625,0,0,0-2.617-2.61Z" transform="translate(-81.646 -84.955)" fill="#34495e"/>
+      <rect id="長方形_38" data-name="長方形 38" width="96.515" height="60.31" transform="translate(70.37 72.531)" fill="#fff"/>
+      <rect id="長方形_39" data-name="長方形 39" width="26.701" height="8.002" transform="translate(74.038 75.726)" fill="#fda359"/>
+      <g id="グループ_19" data-name="グループ 19" transform="translate(73.744 75.914)">
+        <rect id="長方形_40" data-name="長方形 40" width="58.237" height="8.002" transform="translate(31.532)" fill="#e1effa"/>
+        <rect id="長方形_41" data-name="長方形 41" width="89.757" height="2.646" transform="translate(0 45.147)" fill="#e1effa"/>
+        <rect id="長方形_42" data-name="長方形 42" width="89.757" height="2.634" transform="translate(0 50.922)" fill="#e1effa"/>
+      </g>
+      <g id="グループ_20" data-name="グループ 20" transform="translate(73.744 102.802)">
+        <rect id="長方形_43" data-name="長方形 43" width="26.701" height="15.233" fill="#d0e070"/>
+        <rect id="長方形_44" data-name="長方形 44" width="26.699" height="15.233" transform="translate(31.532)" fill="#d0e070"/>
+        <rect id="長方形_45" data-name="長方形 45" width="26.704" height="15.233" transform="translate(63.053)" fill="#d0e070"/>
+      </g>
+      <rect id="長方形_46" data-name="長方形 46" width="89.757" height="12.532" transform="translate(73.744 86.975)" fill="#b8d1e6"/>
+      <path id="パス_38" data-name="パス 38" d="M201.3,266.2H149.209a2.62,2.62,0,0,1-2.6-2.62V228.2h5.419v32.568h43.842Z" transform="translate(-81.996 -127.733)" fill="#2e445c"/>
+      <path id="パス_43" data-name="パス 43" d="M122.817,287.036a3.933,3.933,0,0,1-3.92-3.926V234.7a3.937,3.937,0,0,1,3.92-3.925h22.772a3.938,3.938,0,0,1,3.92,3.925v48.412a3.936,3.936,0,0,1-3.92,3.926H122.817Z" transform="translate(-66.573 -129.055)" fill="#34495e"/>
+      <g id="グループ_22" data-name="グループ 22" transform="translate(64.284 104.831)">
+        <path id="パス_44" data-name="パス 44" d="M153.029,348.915a.935.935,0,0,1-.934.936h-4.917a.944.944,0,0,1-.938-.936v-.395a.948.948,0,0,1,.938-.939H152.1a.938.938,0,0,1,.934.939Z" transform="translate(-146.24 -299.826)" fill="#283a4d"/>
+        <path id="パス_45" data-name="パス 45" d="M153.709,239.066a1.131,1.131,0,1,1-1.127-1.129A1.126,1.126,0,0,1,153.709,239.066Z" transform="translate(-149.179 -237.937)" fill="#283a4d"/>
+      </g>
+      <path id="パス_46" data-name="パス 46" d="M153.882,239.842a.524.524,0,0,1-.526.532.531.531,0,1,1,0-1.063A.523.523,0,0,1,153.882,239.842Z" transform="translate(-85.66 -134.141)" fill="#5d6d7e"/>
+      <rect id="長方形_47" data-name="長方形 47" width="26.169" height="39.259" transform="translate(54.559 110.212)" fill="#fff"/>
+      <rect id="長方形_48" data-name="長方形 48" width="22.146" height="3.385" transform="translate(56.587 112.043)" fill="#fda359"/>
+      <g id="グループ_23" data-name="グループ 23" transform="translate(56.587 144.009)">
+        <rect id="長方形_49" data-name="長方形 49" width="22.146" height="1.109" fill="#e1effa"/>
+        <rect id="長方形_50" data-name="長方形 50" width="22.146" height="1.109" transform="translate(0 2.442)" fill="#e1effa"/>
+      </g>
+      <rect id="長方形_51" data-name="長方形 51" width="22.146" height="17.347" transform="translate(56.587 125.239)" fill="#d0e070"/>
+      <rect id="長方形_52" data-name="長方形 52" width="22.146" height="6.981" transform="translate(56.587 116.809)" fill="#b8d1e6"/>
+    </g>
+  </g>
+</svg>
