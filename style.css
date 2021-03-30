@@ -81,7 +81,7 @@ nav li {
 }
 
 .main-content-bg {
-  background-image: url(img/black_background.jpg);
+  background-image: url(img/black_background_2.jpg);
   background-size: cover;
   padding-bottom: 10px;
   padding-top: 20px;
@@ -192,5 +192,9 @@ nav li {
 
 .skills__item:nth-child(-n+4) {
   margin-bottom: 20px;
+}
+
+.works__item img {
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */

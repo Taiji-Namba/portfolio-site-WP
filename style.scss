@@ -82,7 +82,7 @@ nav {
 
 // メインコンテンツ
 .main-content-bg {
-  background-image: url(img/black_background.jpg);
+  background-image: url(img/black_background_2.jpg);
   background-size: cover;
   padding-bottom: 10px;
   padding-top: 20px;
@@ -92,10 +92,6 @@ nav {
   max-width: $layout-width-inner;
   margin: 0 auto;
 }
-
-// .main-contents {
-//   margin: 0 2.5%;
-// }
 
 .section-title {
   text-align: center;
@@ -192,4 +188,9 @@ nav {
   &:nth-child(-n+4) {
     margin-bottom: 20px;
   }
+}
+
+// Worksセクション
+.works__item img {
+  height: 200px;
 }
