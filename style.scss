@@ -172,6 +172,12 @@ nav {
 .txt-container__txt--price {
   @extend .txt-container__txt;
   margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.txt-container__txt--center {
+  @extend .txt-container__txt;
+  text-align: center;
 }
 
 // Skillsセクション

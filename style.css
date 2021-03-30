@@ -108,7 +108,7 @@ nav li {
   text-align: left;
 }
 
-.txt-container__txt, .txt-container__txt--price {
+.txt-container__txt, .txt-container__txt--price, .txt-container__txt--center {
   text-align: justify;
   font-size: 1.6rem;
   margin: 0;
@@ -170,6 +170,11 @@ nav li {
 
 .txt-container__txt--price {
   margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.txt-container__txt--center {
+  text-align: center;
 }
 
 .skills {
