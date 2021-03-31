@@ -200,3 +200,50 @@ nav {
 .works__item img {
   height: 200px;
 }
+
+.work__content {
+  height: auto;
+  overflow:hidden;
+  display: inline-block;
+  position: relative;
+
+  .caption {
+    width: 100%;
+    height: 100%;
+    visibility: hidden; //文字を表示しない
+    font-size: 1.6rem;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    text-align: center;
+    transition: all 0.4s step-end;
+
+    p {
+      color: #fff;
+      opacity: 0; //ホバーが解除されたときすぐ消えるように文字を表示しない
+    }
+
+  }
+}
+
+.work__content:hover .caption {
+  visibility: visible; //文字を表示する
+  // opacity: 1; //文字を表示する
+}
+
+.work__content .mask {
+  width: 100%;
+  height: 100%;
+  transform: scale(0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.work__content:hover .mask {
+  opacity: 1;
+  transform: scale(1.0);
+}
