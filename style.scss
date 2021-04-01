@@ -100,10 +100,10 @@ nav {
 }
 
 .txt-container--policy {
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
-@mixin txtContentTitle ($text-align){
+@mixin txtContentTitle($text-align) {
   font-size: 3.2rem;
   margin: 0 0 0.16em 0;
   text-align: $text-align;
@@ -191,7 +191,7 @@ nav {
 .skills__item {
   width: calc(25% - 2rem);
 
-  &:nth-child(-n+4) {
+  &:nth-child(-n + 4) {
     margin-bottom: 20px;
   }
 }
@@ -206,28 +206,42 @@ nav {
   width: calc(33% - 1rem);
 }
 
-.works__item img {
-  width: 100%;
-  z-index: 0;
+.work__link {
+  display: block;
 }
 
 .work__content {
   height: auto;
-  overflow:hidden;
-  display: inline-block;
+  overflow: hidden;
+  display: flex;
   position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  .mask {
+    width: 100%;
+    height: 100%;
+    transform: scale(0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(#d41e45, 0.6);
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
 
   .caption {
     width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     visibility: hidden; //文字を表示しない
     font-size: 1.4rem;
-    position: absolute;
-    top: 25px;
-    left: 0;
     text-align: center;
     transition: all 0.3s step-end;
-    z-index: 2;
 
     p {
       color: #fff;
@@ -236,28 +250,15 @@ nav {
   }
 }
 
+.work__content:hover .mask {
+  opacity: 1;
+  transform: scale(1.0);
+}
+
 .work__content:hover .caption {
   visibility: visible; //文字を表示する
 }
 
-.work__content:hover .caption p{
+.work__content:hover .caption p {
   opacity: 1; //文字を表示する
-}
-
-.work__content .mask {
-  width: 100%;
-  height: 100%;
-  transform: scale(0.8);
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.6);
-  opacity: 0;
-  transition: all 0.4s ease;
-  z-index: 1;
-}
-
-.work__content:hover .mask {
-  opacity: 1;
-  transform: scale(1.0);
 }
