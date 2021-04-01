@@ -275,4 +275,12 @@ nav li {
 .work__content:hover .caption p {
   opacity: 1;
 }
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container p {
+  font-size: 1.6rem;
+}
 /*# sourceMappingURL=style.css.map */
