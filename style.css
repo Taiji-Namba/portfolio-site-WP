@@ -199,8 +199,21 @@ nav li {
   margin-bottom: 20px;
 }
 
+.works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.works__item {
+  width: calc(33% - 1rem);
+}
+
 .works__item img {
-  height: 300px;
+  width: 100%;
 }
 
 .work__content {
