@@ -81,8 +81,8 @@ nav li {
 }
 
 .main-content-bg {
-  background-image: url(img/black_background.jpg);
-  background-size: contain;
+  background-image: url(img/sea.jpg);
+  background-size: cover;
   padding-bottom: 10px;
   padding-top: 20px;
 }
