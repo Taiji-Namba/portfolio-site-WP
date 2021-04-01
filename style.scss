@@ -208,6 +208,7 @@ nav {
 
 .works__item img {
   width: 100%;
+  z-index: 0;
 }
 
 .work__content {
@@ -220,24 +221,27 @@ nav {
     width: 100%;
     height: 100%;
     visibility: hidden; //文字を表示しない
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     position: absolute;
     top: 25px;
     left: 0;
     text-align: center;
-    transition: all 0.4s step-end;
+    transition: all 0.3s step-end;
+    z-index: 2;
 
     p {
       color: #fff;
       opacity: 0; //ホバーが解除されたときすぐ消えるように文字を表示しない
     }
-
   }
 }
 
 .work__content:hover .caption {
   visibility: visible; //文字を表示する
-  // opacity: 1; //文字を表示する
+}
+
+.work__content:hover .caption p{
+  opacity: 1; //文字を表示する
 }
 
 .work__content .mask {
@@ -247,9 +251,10 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
   opacity: 0;
   transition: all 0.4s ease;
+  z-index: 1;
 }
 
 .work__content:hover .mask {
