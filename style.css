@@ -193,7 +193,7 @@ nav li {
 }
 
 .service__icon img {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
@@ -213,7 +213,7 @@ nav li {
 @media screen and (max-width: 1024px) {
   .txt-container__title--service-title {
     text-align: left;
-    line-height: 0.9em;
+    line-height: .9em;
   }
 }
 

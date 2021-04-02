@@ -111,7 +111,7 @@ nav {
   margin: 0 auto;
 
   @include mq(tab) {
-  width: 95%;
+    width: 95%;
   }
 }
 
@@ -195,7 +195,7 @@ nav {
   }
 
   img {
-    width: 80%;
+    width: 70%;
     height: auto;
   }
 }
@@ -211,7 +211,7 @@ nav {
 
   @include mq(tab) {
     text-align: left;
-    line-height: 0.9em;
+    line-height: .9em;
   }
 }
 
@@ -298,7 +298,7 @@ nav {
 
 .work__content:hover .mask {
   opacity: 1;
-  transform: scale(1.0);
+  transform: scale(1);
 }
 
 .work__content:hover .caption {
