@@ -309,7 +309,7 @@ nav li {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(212, 30, 69, 0.6);
+  background-color: rgba(212, 30, 69, 0.7);
   opacity: 0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
