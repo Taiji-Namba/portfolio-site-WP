@@ -252,7 +252,11 @@ nav li {
 }
 
 .skills__item:nth-child(-n + 4) {
-  margin-bottom: 20px;
+  margin-bottom: 2em;
+}
+
+.skills__item img {
+  width: 100%;
 }
 
 .works {

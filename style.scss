@@ -243,8 +243,12 @@ nav {
   width: calc(25% - 2em);
 
   &:nth-child(-n + 4) {
-    margin-bottom: 20px;
+    margin-bottom: 2em;
   }
+}
+
+.skills__item img {
+  width: 100%;
 }
 
 // Worksセクション
