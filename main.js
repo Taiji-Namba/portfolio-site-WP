@@ -6,6 +6,7 @@ $(function() {
     $('body,html').animate({ scrollTop: pos }, 500);
   });
 
+  //スマホ・タブレットでのhover有効化
   $('.work__content').bind('touchstart', function() {
     $(this).addClass('hover');
   }).bind('touchend', function(){
