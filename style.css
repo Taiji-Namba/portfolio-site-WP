@@ -150,6 +150,12 @@ nav li {
   margin: 0px auto 32px 0;
 }
 
+@media screen and (max-width: 520px) {
+  .profile_picture {
+    height: 20vw;
+  }
+}
+
 .profile_picture img {
   margin: 0 auto;
   display: block;

@@ -161,6 +161,10 @@ nav {
 .profile_picture {
   height: 300px;
   margin: 0px auto 32px 0;
+
+  @include mq() {
+    height: 20vw;
+  }
 }
 
 .profile_picture img {
