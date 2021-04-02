@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"); //Noto Serif
 
+// ブレークポイント
 $layout-width-inner: 1024px;
+$layout-width-sp: 520px;
+
+$breakpoints: (
+  "tab": "screen and (max-width: #{$layout-width-inner})",
+  "sp": "screen and (max-width: #{$layout-width-sp})",
+) !default;
+
+@mixin mq($breakpoint: sp) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
 
 *,
 *::before,
