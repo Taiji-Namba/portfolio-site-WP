@@ -131,10 +131,6 @@ nav {
 
 .txt-container--policy {
   margin-bottom: 40px;
-
-  @include mq() {
-    margin-bottom: 40px;
-  }
 }
 
 @mixin txtContentTitle($text-align) {
@@ -184,7 +180,7 @@ nav {
 
   @include mq() {
     height: 50vw;
-    margin: 0 auto 80px 0;
+    margin: 0 auto 40px 0;
   }
 }
 
