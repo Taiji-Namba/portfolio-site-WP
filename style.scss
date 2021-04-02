@@ -210,8 +210,12 @@ nav {
 
   @include mq() {
     width: 100%;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 80px auto;
     display: block;
+    
+    &:last-child {
+      margin: 0 auto 40px auto;
+  }
 
   }
 }
