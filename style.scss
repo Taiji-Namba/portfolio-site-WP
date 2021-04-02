@@ -74,6 +74,10 @@ nav {
   background-image: url(img/top-image.jpg);
   background-size: cover;
   position: relative;
+
+  @include mq(tab) {
+    background-image: url(img/top-image_sp.jpg);
+  }
 }
 
 .first-view__message {

@@ -65,6 +65,12 @@ nav li {
   position: relative;
 }
 
+@media screen and (max-width: 1024px) {
+  .first-view {
+    background-image: url(img/top-image_sp.jpg);
+  }
+}
+
 .first-view__message {
   position: absolute;
   top: 50%;
