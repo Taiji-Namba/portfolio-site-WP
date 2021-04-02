@@ -255,9 +255,9 @@ nav li {
 
 @media screen and (max-width: 520px) {
   .service__icon {
-    width: 50%;
     display: block;
-    margin: 0 auto 16px auto;
+    margin: 0 auto 8px auto;
+    width: 30%;
   }
 }
 
@@ -308,18 +308,13 @@ nav li {
   .txt-container__title--service-title {
     text-align: center;
     line-height: 1.5;
+    margin-bottom: 0px;
   }
 }
 
 .txt-container__txt--price {
   margin-top: 24px;
   margin-bottom: 20px;
-}
-
-@media screen and (max-width: 520px) {
-  .txt-container__txt--price {
-    text-align: center;
-  }
 }
 
 .txt-container__txt--center {
