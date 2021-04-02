@@ -170,7 +170,7 @@ nav li {
 @media screen and (max-width: 1024px) {
   .service {
     width: 100%;
-    margin: 0;
+    margin: 0 0 40px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -188,13 +188,20 @@ nav li {
     display: -ms-flexbox;
     display: flex;
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 5em;
+    width: 13%;
   }
 }
 
 .service__icon img {
   width: 70%;
   height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .service__icon img {
+    width: 100%;
+  }
 }
 
 .txt-wrapper {

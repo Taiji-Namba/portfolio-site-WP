@@ -179,7 +179,7 @@ nav {
 
   @include mq(tab) {
     width: 100%;
-    margin: 0;
+    margin: 0 0 40px 0;
     display: flex;
   }
 }
@@ -191,12 +191,17 @@ nav {
   @include mq(tab) {
     display: flex;
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 5em;
+    width: 13%;
   }
 
   img {
     width: 70%;
     height: auto;
+
+    @include mq(tab) {
+      width: 100%;
+    }
   }
 }
 
