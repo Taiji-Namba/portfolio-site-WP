@@ -21,6 +21,13 @@ header {
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  width: 99%;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 95%;
+  }
 }
 
 nav {
@@ -90,6 +97,12 @@ nav li {
 .main-contents-wrapper {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-contents-wrapper {
+    width: 95%;
+  }
 }
 
 .section-title {
