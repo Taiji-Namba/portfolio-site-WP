@@ -266,10 +266,21 @@ nav li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.works__item {
+.work {
   width: calc(33% - 1rem);
+}
+
+@media screen and (max-width: 1024px) {
+  .work {
+    width: calc(50% - 2em);
+  }
+  .work:nth-child(3) {
+    margin: 4em auto 0 auto;
+  }
 }
 
 .work__link {
@@ -283,6 +294,7 @@ nav li {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  width: 100%;
 }
 
 .work__content img {

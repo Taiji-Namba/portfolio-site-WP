@@ -255,10 +255,19 @@ nav {
 .works {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.works__item {
+.work {
   width: calc(33% - 1rem);
+
+  @include mq(tab) {
+    width: calc(50% - 2em);
+
+    &:nth-child(3) {
+      margin: 4em auto 0 auto;
+    }
+  }
 }
 
 .work__link {
@@ -270,6 +279,7 @@ nav {
   overflow: hidden;
   display: flex;
   position: relative;
+  width: 100%;
 
   img {
     width: 100%;
