@@ -283,4 +283,19 @@ nav li {
 .contact-container p {
   font-size: 1.6rem;
 }
+
+footer {
+  padding: 10px 0;
+  background-color: #007388;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.copyright p {
+  padding: 10px auto;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

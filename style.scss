@@ -272,4 +272,18 @@ nav {
   font-size: 1.6rem;
 }
 
+// フッター
+footer {
+  padding: 10px 0;
+  background-color: #007388;
+}
 
+.copyright {
+  font-size: 1.4rem;
+  text-align: center;
+
+  p {
+    padding: 10px auto;
+    margin: 0;
+  }
+}
