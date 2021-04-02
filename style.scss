@@ -131,6 +131,10 @@ nav {
 
 .txt-container--policy {
   margin-bottom: 40px;
+
+  @include mq() {
+    margin-bottom: 80px;
+  }
 }
 
 @mixin txtContentTitle($text-align) {
@@ -146,6 +150,10 @@ nav {
 
 .txt-container__title {
   @include txtContentTitle(left);
+
+  @include mq() {
+    @include txtContentTitle(center);
+  }
 }
 
 .txt-container__txt {
@@ -202,6 +210,13 @@ nav {
     margin: 0 0 40px 0;
     display: flex;
   }
+
+  @include mq() {
+    width: 100%;
+    margin: 0 auto 40px auto;
+    display: block;
+
+  }
 }
 
 .service__icon {
@@ -215,11 +230,21 @@ nav {
     width: 13%;
   }
 
+  @include mq() {
+    width: 50%;
+    display: block;
+    margin: 0 auto 16px auto;
+  }
+
   img {
     width: 70%;
     height: auto;
 
     @include mq(tab) {
+      width: 100%;
+    }
+
+    @include mq() {
       width: 100%;
     }
   }
@@ -238,12 +263,21 @@ nav {
     text-align: left;
     line-height: .9em;
   }
+
+  @include mq() {
+    text-align: center;
+    line-height: 1.5;
+  }
 }
 
 .txt-container__txt--price {
   @extend .txt-container__txt;
   margin-top: 24px;
   margin-bottom: 20px;
+
+  @include mq() {
+    text-align: center;
+  }
 }
 
 .txt-container__txt--center {
