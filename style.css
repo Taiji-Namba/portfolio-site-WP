@@ -170,7 +170,7 @@ nav li {
 
 @media screen and (max-width: 520px) {
   .profile_picture {
-    height: 20vw;
+    height: 50vw;
   }
 }
 
