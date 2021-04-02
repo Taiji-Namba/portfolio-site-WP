@@ -158,11 +158,23 @@ nav li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.services-menu {
+.service {
   width: calc(33.3% - 3em);
   display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+  .service {
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .service__icon {
@@ -170,9 +182,23 @@ nav li {
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 1024px) {
+  .service__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline-block;
+    margin-right: 2em;
+  }
+}
+
 .service__icon img {
   width: 80%;
   height: auto;
+}
+
+.txt-wrapper {
+  width: 100%;
 }
 
 .txt-container__title--service-title {
@@ -182,6 +208,13 @@ nav li {
   letter-spacing: 0.05em;
   font-size: 2.8rem;
   margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .txt-container__title--service-title {
+    text-align: left;
+    line-height: 0.9em;
+  }
 }
 
 .txt-container__txt--price {
