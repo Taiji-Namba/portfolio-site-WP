@@ -63,7 +63,7 @@ nav {
 
 .nav-link {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: white;
 }
 
@@ -129,6 +129,7 @@ nav {
   font-size: 3.2rem;
   margin: 0 0 0.16em 0;
   text-align: $text-align;
+  letter-spacing: 0.05em;
 } //txt-content-titleのmixin定義
 
 .txt-container__title {
@@ -139,6 +140,7 @@ nav {
   text-align: justify;
   font-size: 1.6rem;
   margin: 0;
+  letter-spacing: 0.05em;
 }
 
 .txt-container__txt--large {

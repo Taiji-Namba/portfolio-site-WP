@@ -53,7 +53,7 @@ nav li {
 
 .nav-link {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: white;
 }
 
@@ -119,12 +119,14 @@ nav li {
   font-size: 3.2rem;
   margin: 0 0 0.16em 0;
   text-align: left;
+  letter-spacing: 0.05em;
 }
 
 .txt-container__txt, .txt-container__txt--price, .txt-container__txt--center {
   text-align: justify;
   font-size: 1.6rem;
   margin: 0;
+  letter-spacing: 0.05em;
 }
 
 .txt-container__txt--large {
@@ -177,6 +179,7 @@ nav li {
   font-size: 3.2rem;
   margin: 0 0 0.16em 0;
   text-align: center;
+  letter-spacing: 0.05em;
   font-size: 2.8rem;
   margin-bottom: 8px;
 }
