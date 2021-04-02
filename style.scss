@@ -173,7 +173,7 @@ nav {
 }
 
 .services-menu {
-  width: calc(33.3% - 3rem);
+  width: calc(33.3% - 3em);
   display: inline-block;
 }
 
@@ -213,7 +213,7 @@ nav {
 }
 
 .skills__item {
-  width: calc(25% - 2rem);
+  width: calc(25% - 2em);
 
   &:nth-child(-n + 4) {
     margin-bottom: 20px;
