@@ -60,14 +60,14 @@ nav li {
 .first-view {
   width: 100vw;
   height: 100vh;
-  background-image: url(img/top-image.jpg);
+  background-image: url(./img/top-image.jpg);
   background-size: cover;
   position: relative;
 }
 
 @media screen and (max-width: 1024px) {
   .first-view {
-    background-image: url(img/top-image_sp.jpg);
+    background-image: url(./img/top-image_sp.jpg);
   }
 }
 
@@ -94,7 +94,7 @@ nav li {
 }
 
 .main-content-bg {
-  background-image: url(img/sea.jpg);
+  background-image: url(./img/sea.jpg);
   background-size: cover;
   padding-bottom: 10px;
   padding-top: 24px;
@@ -102,7 +102,7 @@ nav li {
 
 @media screen and (max-width: 520px) {
   .main-content-bg {
-    background-image: url(img/sea_sp.jpg);
+    background-image: url(./img/sea_sp.jpg);
   }
 }
 
