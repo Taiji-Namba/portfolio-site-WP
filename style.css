@@ -333,11 +333,11 @@ nav li {
 }
 
 .skills__item {
-  width: calc(25% - 2em);
+  width: calc(25% - 2rem);
 }
 
 .skills__item:nth-child(-n + 4) {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 .skills__item img {
