@@ -329,8 +329,17 @@ nav {
   @include mq(tab) {
     width: calc(50% - 2em);
 
-    &:nth-child(3) {
+    &:last-child {
       margin: 4em auto 0 auto;
+    }
+  }
+
+  @include mq() {
+    width: 90%;
+    margin: 0 auto 2rem auto;
+
+    &:last-child {
+      margin: 0 auto 2rem auto;
     }
   }
 }

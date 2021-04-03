@@ -376,8 +376,18 @@ nav li {
   .work {
     width: calc(50% - 2em);
   }
-  .work:nth-child(3) {
+  .work:last-child {
     margin: 4em auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .work {
+    width: 90%;
+    margin: 0 auto 2rem auto;
+  }
+  .work:last-child {
+    margin: 0 auto 2rem auto;
   }
 }
 
