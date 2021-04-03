@@ -321,6 +321,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .work {
@@ -349,15 +350,16 @@ nav {
 }
 
 .work__content {
-  height: auto;
-  overflow: hidden;
-  display: flex;
-  position: relative;
   width: 100%;
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
 
   img {
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   .mask {
