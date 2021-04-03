@@ -340,6 +340,18 @@ nav li {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 520px) {
+  .skills__item {
+    width: 60%;
+  }
+  .skills__item:nth-child(-n+7) {
+    margin: 0 auto 2rem auto;
+  }
+  .skills__item:last-child {
+    margin: 0 auto;
+  }
+}
+
 .skills__item img {
   width: 100%;
   height: auto;
