@@ -123,6 +123,10 @@ nav {
   text-align: center;
   font-size: 4rem;
   margin: 0 0 24px 0 !important;
+
+  @include mq() {
+    font-size: 3.2rem;
+  }
 }
 
 .txt-container--policy {
@@ -134,10 +138,18 @@ nav {
   margin: 0 0 0.16em 0;
   text-align: $text-align;
   letter-spacing: 0.05em;
+
+  @include mq() {
+    font-size: 2.4rem;
+  }
 } //txt-content-titleのmixin定義
 
 .txt-container__title {
   @include txtContentTitle(left);
+
+  @include mq() {
+    @include txtContentTitle(center);
+  }
 }
 
 .txt-container__txt {
@@ -145,6 +157,10 @@ nav {
   font-size: 1.6rem;
   margin: 0;
   letter-spacing: 0.05em;
+
+  @include mq() {
+    font-size: 1.4rem;
+  }
 }
 
 .txt-container__txt--large {
@@ -161,6 +177,11 @@ nav {
 .profile_picture {
   height: 300px;
   margin: 0px auto 32px 0;
+
+  @include mq() {
+    height: 50vw;
+    margin: 0 auto 40px 0;
+  }
 }
 
 .profile_picture img {
@@ -186,6 +207,17 @@ nav {
     margin: 0 0 40px 0;
     display: flex;
   }
+
+  @include mq() {
+    width: 100%;
+    margin: 0 auto 80px auto;
+    display: block;
+    
+    &:last-child {
+      margin: 0 auto 40px auto;
+  }
+
+  }
 }
 
 .service__icon {
@@ -199,11 +231,21 @@ nav {
     width: 13%;
   }
 
+  @include mq() {
+    display: block;
+    margin: 0 auto 8px auto;
+    width: 30%;
+  }
+
   img {
     width: 70%;
     height: auto;
 
     @include mq(tab) {
+      width: 100%;
+    }
+
+    @include mq() {
       width: 100%;
     }
   }
@@ -221,6 +263,12 @@ nav {
   @include mq(tab) {
     text-align: left;
     line-height: .9em;
+  }
+
+  @include mq() {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 0px;
   }
 }
 
@@ -244,10 +292,22 @@ nav {
 }
 
 .skills__item {
-  width: calc(25% - 2em);
+  width: calc(25% - 2rem);
 
   &:nth-child(-n + 4) {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
+  }
+
+  @include mq() {
+    width: 60%;
+
+    &:nth-child(-n+7) {
+      margin: 0 auto 2rem auto;
+    }
+
+    &:last-child {
+      margin: 0 auto;
+    }
   }
 }
 
@@ -261,6 +321,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .work {
@@ -269,8 +330,17 @@ nav {
   @include mq(tab) {
     width: calc(50% - 2em);
 
-    &:nth-child(3) {
+    &:last-child {
       margin: 4em auto 0 auto;
+    }
+  }
+
+  @include mq() {
+    width: 90%;
+    margin: 0 auto 2rem auto;
+
+    &:last-child {
+      margin: 0 auto 2rem auto;
     }
   }
 }
@@ -280,15 +350,16 @@ nav {
 }
 
 .work__content {
-  height: auto;
-  overflow: hidden;
-  display: flex;
-  position: relative;
   width: 100%;
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
 
   img {
     width: 100%;
     height: auto;
+    display: block;
   }
 
   .mask {
@@ -339,17 +410,31 @@ nav {
   text-align: center;
 }
 
+.contact-container img  {
+  @include mq() {
+    transform: scale(0.8);
+  }
+}
+
 .contact-container p {
   font-size: 1.6rem;
   letter-spacing: 0.05em;
   margin: 24px auto 0 auto;
+
+  @include mq() {
+    font-size: 1.4rem;
+  }
 }
 
-// フッター
+// Copyright
 .copyright {
   padding: 10px 0;
   font-size: 1.4rem;
   text-align: center;
+
+  @include mq() {
+    font-size: 1.2rem;
+  }
 
   p {
     padding: 10px auto;
