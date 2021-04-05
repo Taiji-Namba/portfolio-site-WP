@@ -430,11 +430,12 @@ nav {
   }
 }
 
-// Copyright
-.copyright {
+// フッター
+footer {
   padding: 10px 0;
   font-size: 1.4rem;
   text-align: center;
+  background-color: #007388;
 
   @include mq() {
     font-size: 1.2rem;

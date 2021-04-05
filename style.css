@@ -486,19 +486,20 @@ nav li {
   }
 }
 
-.copyright {
+footer {
   padding: 10px 0;
   font-size: 1.4rem;
   text-align: center;
+  background-color: #007388;
 }
 
 @media screen and (max-width: 520px) {
-  .copyright {
+  footer {
     font-size: 1.2rem;
   }
 }
 
-.copyright p {
+footer p {
   padding: 10px auto;
   margin: 0;
 }
