@@ -71,12 +71,12 @@ nav {
 .first-view {
   width: 100vw;
   height: 100vh;
-  background-image: url(./img/top-image.jpg);
+  background-image: url(./images/top-image.jpg);
   background-size: cover;
   position: relative;
 
   @include mq(tab) {
-    background-image: url(./img/top-image_sp.jpg);
+    background-image: url(./images/top-image_sp.jpg);
   }
 }
 
@@ -104,13 +104,13 @@ nav {
 
 // メインコンテンツ
 .main-content-bg {
-  background-image: url(./img/sea.jpg);
+  background-image: url(./images/sea.jpg);
   background-size: cover;
   padding-bottom: 10px;
   padding-top: 24px;
 
   @include mq() {
-    background-image: url(./img/sea_sp.jpg);
+    background-image: url(./images/sea_sp.jpg);
   }
 }
 
