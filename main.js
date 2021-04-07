@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function($) {
   // nav-link
   $('#page-link a[href*="#"]').click(function() {
     let elmHash = $(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
@@ -7,7 +7,7 @@ $(function() {
   });
 
   //スマホ・タブレットでのhover有効化
-  $('.work__content').bind('touchstart', function() {
+  $('.js-hover-transition').bind('touchstart', function() {
     $(this).addClass('hover');
   }).bind('touchend', function(){
     $(this).removeClass('hover');
