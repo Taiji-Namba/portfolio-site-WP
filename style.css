@@ -328,6 +328,7 @@ nav li {
 
 .txt-container__txt--center {
   text-align: center;
+  margin: 0 auto;
 }
 
 .skills {
@@ -586,5 +587,21 @@ footer {
 footer p {
   padding: 10px auto;
   margin: 0;
+}
+
+.fadeIn {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 /*# sourceMappingURL=style.css.map */

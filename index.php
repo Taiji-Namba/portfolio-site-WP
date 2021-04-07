@@ -13,17 +13,17 @@
       <div class="main-contents">
         <!-- Aboutセクション -->
         <section class="main-contents__section" id="about">
-            <h2 class = "section-title">About</h2>
-            <div class = "profile_picture">
+            <h2 class = "section-title fadeIn">About</h2>
+            <div class = "profile_picture fadeIn">
               <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/profile_compressed.png" alt="プロフィール写真">
             </div>
             <div class="txt-wrapper">
-              <div class="txt-container--policy">
+              <div class="txt-container--policy fadeIn">
                 <h3 class="txt-container__title">Policy</h3>
                 <p class="txt-container__txt">迅速なレスポンスと丁寧なコミュニケーションを常に心がけ、真摯に仕事に取り組みます。クライアント様の良いビジネスパートナーとなれるよう責任を持って、最善を尽くすことをお約束します。
                 </p>
               </div>
-              <div class="txt-container">
+              <div class="txt-container fadeIn">
                 <h3 class="txt-container__title">A brief personal history</h3>
                 <p class="txt-container__txt--large">Taiji Namba / 南塲 大慈</p>
                 <p class="txt-container__txt">
@@ -40,8 +40,8 @@
 
         <!-- Servicesセクション -->
         <section class="main-contents__section" id="services">
-          <h2 class="section-title">Services</h2>
-          <div class="services">
+          <h2 class="section-title fadeIn">Services</h2>
+          <div class="services fadeIn">
             <div class="services-menu service">
               <div class="service__icon">
                 <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/code_yellow.svg">
@@ -100,14 +100,14 @@
                 </div>
               </div>
             </div>
+            <p class = "txt-container__txt--center">上記料金は目安になります。正式なお見積りはお問い合わせ下さい。</p>
           </div>
-          <p class = "txt-container__txt--center">上記料金は目安になります。正式なお見積りはお問い合わせ下さい。</p>
         </section>
 
         <!-- Skillsセクション -->
         <section class="main-contents__section" id="skills">
-          <h2 class="section-title">Skills</h2>
-          <div class="skills">
+          <h2 class="section-title fadeIn">Skills</h2>
+          <div class="skills fadeIn">
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/html_2.svg" alt="HTML"></div>
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/css_2.svg" alt="CSS"></div>
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/sass_2.svg" alt="Sass"></div>
@@ -121,8 +121,8 @@
 
         <!-- Worksセクション -->
         <section class="main-contents__section" id="works">
-          <h2 class="section-title">Works</h2>
-          <div class="works">
+          <h2 class="section-title fadeIn">Works</h2>
+          <div class="works fadeIn">
             <div class="works__item work">
               <a class="work__link" href="https://taiji-namba.github.io/yourbooks/" target="_blank" rel="noopener noreferrer">
                 <div class="work__content js-hover-transition">
@@ -166,8 +166,8 @@
         </section>
         <!-- Contactセクション -->
         <section class="main-contents__section" id="contact">
-          <h2 class="section-title">Contact</h2>
-          <div class="forms">
+          <h2 class="section-title fadeIn">Contact</h2>
+          <div class="forms fadeIn">
             <?php echo apply_filters('the_content', '[contact-form-7 id="5" title="お問合せフォーム"]'); ?>
             <p>原則、翌々日までにご返信いたします。</p>
           </div>

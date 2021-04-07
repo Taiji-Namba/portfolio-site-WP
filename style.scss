@@ -291,6 +291,7 @@ nav {
 .txt-container__txt--center {
   @extend .txt-container__txt;
   text-align: center;
+  margin: 0 auto;
 }
 
 // Skillsセクション
@@ -531,4 +532,19 @@ footer {
     padding: 10px auto;
     margin: 0;
   }
+}
+
+//fadeInアニメーション
+.fadeIn {
+  opacity : 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: translateY(100px);
+}
+
+//アニメーション要素までスクロールしたときのスタイル
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
