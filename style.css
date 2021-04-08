@@ -17,7 +17,7 @@ body {
 }
 
 button, input, select, textarea {
-  font-family: sans-serif;
+  font-family: "Noto Serif ", serif;
   font-size: 1.6rem;
   outline: none;
 }
