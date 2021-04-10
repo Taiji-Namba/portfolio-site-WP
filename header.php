@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php bloginfo('name'); ?> | <?php wp_title(); ?></title>
-  <meta name="description" content="南塲大慈のポートフォリオサイト。コーディング・ホームページ制作・WordPress構築。">
+  <meta name="description" content="南塲大慈のポートフォリオサイト。コーディング・ホームページ制作・WordPress構築・WordPress化などWeb制作に関わる仕事を承っております。">
   <?php wp_head(); ?>
 </head>
 <body>
