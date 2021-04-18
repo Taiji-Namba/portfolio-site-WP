@@ -111,7 +111,7 @@
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/html_2.svg" alt="HTML"></div>
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/css_2.svg" alt="CSS"></div>
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/sass_2.svg" alt="Sass"></div>
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/javascript_2.svg" alt=""></div>
+            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/javascript_3.svg" alt="javaScript(jQuery)"></div>
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/wordpress_2.svg" alt="WordPress"></div>
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/ruby_2.svg" alt="Ruby"></div>
             <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/rails_2.svg" alt="Ruby on Rails"></div>
