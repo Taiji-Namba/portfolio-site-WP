@@ -108,19 +108,54 @@
         <section class="main-contents__section" id="skills">
           <h2 class="section-title fadeIn">Skills</h2>
           <div class="skills fadeIn">
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/html_2.svg" alt="HTML"></div>
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/css_2.svg" alt="CSS"></div>
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/sass_2.svg" alt="Sass"></div>
+            <div class="skills__item">
+              <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/html_3.svg" alt="HTML">
+              <div class="skill-title">
+                <p>HTML</p>
+              </div>
+            </div>
+            <div class="skills__item">
+              <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/css_3.svg" alt="CSS">
+              <div class="skill-title">
+                <p>CSS</p>
+              </div>
+            </div>
+            <div class="skills__item">
+              <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/sass_4.svg" alt="Sass">
+              <div class="skill-title">
+                <p>Sass</p>
+              </div>
+            </div>
             <div class="skills__item">
               <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/javascript_4.svg" alt="javaScript(jQuery)">
               <div class="skill-title">
                 <p>JavaScript(jQuery)</p>
               </div>
             </div>
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/wordpress_2.svg" alt="WordPress"></div>
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/ruby_2.svg" alt="Ruby"></div>
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/rails_2.svg" alt="Ruby on Rails"></div>
-            <div class="skills__item"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/github_2.svg" alt="GitHub"></div>
+            <div class="skills__item">
+              <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/wordpress_3.svg" alt="WordPress">
+              <div class="skill-title">
+                <p>WordPress</p>
+              </div>
+            </div>
+            <div class="skills__item">
+              <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/ruby_3.svg" alt="Ruby">
+              <div class="skill-title">
+                <p>Ruby</p>
+              </div>
+            </div>
+            <div class="skills__item">
+              <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/rails_3.svg" alt="Ruby on Rails">
+              <div class="skill-title">
+                <p>Rails</p>
+              </div>
+            </div>
+            <div class="skills__item">
+              <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/github_3.svg" alt="GitHub">
+              <div class="skill-title">
+                <p>GitHub</p>
+              </div>
+            </div>
           </div>
         </section>
 
