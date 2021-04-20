@@ -114,10 +114,6 @@ nav {
   background-size: cover;
   padding-bottom: 10px;
   padding-top: 24px;
-
-  @include mq() {
-    background-image: url(./images/sea_sp.jpg);
-  }
 }
 
 .main-contents-wrapper {
