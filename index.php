@@ -177,6 +177,19 @@
               </a>
             </div>
             <div class="works__item work">
+              <a class="work__link" href="https://taiji-namba.net/corprate-demo/" target="_blank" rel="noopener noreferrer">
+                <div class="work__content js-hover-transition">
+                  <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/corporate-capture.png" alt="コーポレート デモサイト">
+                  <div class="mask"></div>
+                  <div class="caption">
+                    <p></p>
+                    <p>コーポレート デモサイト</p>
+                    <p>WordPress (Snow Monkey)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="works__item work">
               <a class="work__link" href="https://taiji-namba.github.io/portfolio-site/">
                 <div class="work__content js-hover-transition">
                   <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/portfolio_site-capture_small.png" alt="ポートフォリオサイト">
@@ -209,7 +222,7 @@
           <h2 class="section-title fadeIn">Contact</h2>
           <div class="forms fadeIn">
             <?php echo apply_filters('the_content', '[contact-form-7 id="5" title="お問合せフォーム"]'); ?>
-            <p>原則、翌々日までにご返信いたします。</p>
+            <p>原則、翌日までにご返信いたします。</p>
           </div>
         </section>
       </div>

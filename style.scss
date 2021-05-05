@@ -353,8 +353,14 @@ nav {
   width: 100%;
 }
 
+.works__item {
+  &:nth-child(-n+2) {
+    margin-bottom: 2rem;
+  }
+}
+
 .work {
-  width: calc(33% - 1rem);
+  width: calc(50% - 1rem);
 
   @include mq(tab) {
     width: calc(50% - 2em);
