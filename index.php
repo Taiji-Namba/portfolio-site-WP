@@ -25,7 +25,7 @@
               </div>
               <div class="txt-container fadeIn">
                 <h3 class="txt-container__title">A brief personal history</h3>
-                <p class="txt-container__txt--large">Taiji Namba / 南塲 大慈</p>
+                <p class="txt-container__txt--large">Number Creation代表　Taiji Namba / 南塲 大慈</p>
                 <p class="txt-container__txt">
                   1994年 大阪にて出生<br>
                   2017年 北海道大学 理学部 化学科 卒業<br>
